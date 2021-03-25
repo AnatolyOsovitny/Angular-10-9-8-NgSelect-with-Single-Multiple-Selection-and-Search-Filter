@@ -1,0 +1,12 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+
+    <ng-select [items]="items"
+               bindLabel="name"
+               placeholder="Select item"
+               appendTo="body"
+                [multiple]="true"
+              [(ngModel)]="selected">
+    </ng-select>
